@@ -30,7 +30,7 @@ Homepage: https://projects.kde.org/projects/playground/libs/libkscreen
 Package: kinfocenter5
 Section: libs
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}, kinfocenter5-data (= ${binary:Version})
 Description: overview of your system library
  The kinfocenter provides you with a centralized and convenient
  overview of your system and desktop environment.
