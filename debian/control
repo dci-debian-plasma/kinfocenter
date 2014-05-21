@@ -22,7 +22,7 @@ Build-Depends: debhelper (>= 9.0.0), cmake, pkg-kde-tools,
  libkf5dbusaddons-dev (>= 4.99.0), kf5-kio-dev (>= 4.99.0),
  libkf5jobwidgets-dev (>= 4.99.0), libkf5completion-dev (>= 4.99.0),
  libkf5bookmarks-dev (>= 4.99.0), libkf5sonnet-dev (>= 4.99.0),
- libkf5codecs-dev (>= 4.99.0), libraw1394-dev 
+ libkf5codecs-dev (>= 4.99.0), libraw1394-dev, libpci-dev, pkg-config
 Standards-Version: 3.9.5
 Section: libs
 Homepage: https://projects.kde.org/projects/playground/libs/libkscreen
