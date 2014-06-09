@@ -399,13 +399,13 @@ Copyright: 2010 Reza Arbab <arbab@austin.ibm.com>
 License: BSD-BY-LC-NE
  | Redistribution and use in source and binary forms, with or without modification,
  | are permitted provided that the following conditions are met:
- | 
+ |
  | 1. Redistributions of source code must retain the above copyright notice, this
  | list of conditions and the following disclaimer. 2. Redistributions in binary
  | form must reproduce the above copyright notice, this list of conditions and the
  | following disclaimer in the documentation and/or other materials provided with
  | the distribution.
- | 
+ |
  | THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR IMPLIED
  | WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
  | MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT
@@ -422,7 +422,7 @@ License: BSD-BY-LC-NE
  /usr/share/common-licenses/BSD-BY-LC-NE
 
 Files: Modules/opengl/openglconfig.h.cmake
-Copyright: 2011 Linaro Limited           
+Copyright: 2011 Linaro Limited
 License: LGPL-2+
  | This library is free software; you can redistribute it and/or modify it under
  | the terms of the GNU Library General Public License as published by the Free
@@ -444,7 +444,7 @@ Files: Modules/base/info_wayland.cpp
        Modules/memory/swapMemoryChart.h
        Modules/memory/totalMemoryChart.h
 Copyright: 2014  Martin Gräßlin <mgraesslin@kde.org>
-License: LGPL-2.1+, or anylater version accepted 
+License: LGPL-2.1+, or anylater version accepted
  by the membership of KDE e.V.
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Lesser General Public

@@ -2,27 +2,50 @@ Source: kinfocenter
 Priority: extra
 Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 XSBC-Original-Maintainer: Scarlett Clark <scarlett@scarlettgatelyclark.com>
-Build-Depends: debhelper (>= 9.0.0), cmake, pkg-kde-tools,
- extra-cmake-modules (>= 0.0.14), qtbase5-dev, libkf5kcmutils-dev (>= 4.100.0),
- libkf5i18n-dev (>= 4.100.0), libkf5xmlgui-dev (>= 4.100.0),
- libkf5windowsystem-dev (>= 4.100.0), libkf5solid-dev (>= 4.100.0), 
- libkf5kdelibs4support-dev (>= 4.100.0), plasma-framework-dev (>= 4.100.0),
- libkf5kdelibs4support5-bin (>= 4.100.0), libkf5unitconversion-dev (>= 4.100.0),
- libkf5textwidgets-dev (>= 4.100.0), libkf5parts-dev (>= 4.100.0), 
- libkf5notifications-dev (>= 4.100.0), kinit-dev (>= 4.100.0),
- libkf5itemmodels-dev (>= 4.100.0), libkf5iconthemes-dev (>= 4.100.0),
- libkf5guiaddons-dev (>= 4.100.0), libkf5emoticons-dev (>= 4.100.0),
- kdoctools-dev (>= 4.100.0), kgendesignerplugin (>= 4.100.0),
- libkf5crash-dev (>= 4.100.0), libkf5coreaddons-dev (>= 4.100.0),
- libkf5configwidgets-dev (>= 4.100.0), libkf5auth-dev (>= 4.100.0),
- libkf5attica-dev (>= 4.100.0), libkf5textwidgets-dev (>= 4.100.0),
- libkf5itemviews-dev (>= 4.100.0), libkf5iconthemes-dev (>= 4.100.0),
- libkf5globalaccel-dev (>= 4.100.0), libkf5config-dev (>= 4.100.0),
- libkf5service-dev (>= 4.100.0), libkf5widgetsaddons-dev (>= 4.100.0),
- libkf5dbusaddons-dev (>= 4.100.0), kio-dev (>= 4.100.0),
- libkf5jobwidgets-dev (>= 4.100.0), libkf5completion-dev (>= 4.100.0),
- libkf5bookmarks-dev (>= 4.100.0), libkf5sonnet-dev (>= 4.100.0),
- libkf5codecs-dev (>= 4.100.0), libraw1394-dev, libpci-dev, pkg-config
+Build-Depends: cmake,
+               debhelper (>= 9.0.0),
+               extra-cmake-modules (>= 0.0.14),
+               kdoctools-dev (>= 4.100.0),
+               kgendesignerplugin (>= 4.100.0),
+               kinit-dev (>= 4.100.0),
+               kio-dev (>= 4.100.0),
+               libkf5attica-dev (>= 4.100.0),
+               libkf5auth-dev (>= 4.100.0),
+               libkf5bookmarks-dev (>= 4.100.0),
+               libkf5codecs-dev (>= 4.100.0),
+               libkf5completion-dev (>= 4.100.0),
+               libkf5config-dev (>= 4.100.0),
+               libkf5configwidgets-dev (>= 4.100.0),
+               libkf5coreaddons-dev (>= 4.100.0),
+               libkf5crash-dev (>= 4.100.0),
+               libkf5dbusaddons-dev (>= 4.100.0),
+               libkf5emoticons-dev (>= 4.100.0),
+               libkf5globalaccel-dev (>= 4.100.0),
+               libkf5guiaddons-dev (>= 4.100.0),
+               libkf5i18n-dev (>= 4.100.0),
+               libkf5iconthemes-dev (>= 4.100.0),
+               libkf5itemmodels-dev (>= 4.100.0),
+               libkf5itemviews-dev (>= 4.100.0),
+               libkf5jobwidgets-dev (>= 4.100.0),
+               libkf5kcmutils-dev (>= 4.100.0),
+               libkf5kdelibs4support-dev (>= 4.100.0),
+               libkf5kdelibs4support5-bin (>= 4.100.0),
+               libkf5notifications-dev (>= 4.100.0),
+               libkf5parts-dev (>= 4.100.0),
+               libkf5service-dev (>= 4.100.0),
+               libkf5solid-dev (>= 4.100.0),
+               libkf5sonnet-dev (>= 4.100.0),
+               libkf5textwidgets-dev (>= 4.100.0),
+               libkf5unitconversion-dev (>= 4.100.0),
+               libkf5widgetsaddons-dev (>= 4.100.0),
+               libkf5windowsystem-dev (>= 4.100.0),
+               libkf5xmlgui-dev (>= 4.100.0),
+               libpci-dev,
+               libraw1394-dev,
+               pkg-config,
+               pkg-kde-tools,
+               plasma-framework-dev (>= 4.100.0),
+               qtbase5-dev
 Standards-Version: 3.9.5
 Section: libs
 Homepage: https://projects.kde.org/projects/playground/libs/libkscreen
@@ -30,7 +53,9 @@ Homepage: https://projects.kde.org/projects/playground/libs/libkscreen
 Package: kinfocenter5
 Section: libs
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, kinfocenter5-data (= ${binary:Version})
+Depends: kinfocenter5-data (= ${source:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
 Description: overview of your system library
  The kinfocenter provides you with a centralized and convenient
  overview of your system and desktop environment.
@@ -38,21 +63,20 @@ Description: overview of your system library
  This package contains the shared library
 
 Package: kinfocenter5-data
-Section: libs
-Architecture: any
-Recommends: kinfocenter5 (= ${binary:Version})
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Section: utils
+Architecture: all
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: overview of your system library
  The kinfocenter provides you with a centralized and convenient
  overview of your system and desktop environment.
  .
- This package contains the shared library
+ This package contains the data files
 
 Package: kinfocenter5-dbg
 Section: debug
 Architecture: any
 Recommends: qtbase5-dbg
-Depends: ${misc:Depends}, kinfocenter5 (= ${binary:Version})
+Depends: kinfocenter5 (= ${binary:Version}), ${misc:Depends}
 Description: overview of your system - debug files
  The kinfocenter provides you with a centralized and convenient
  overview of your system and desktop environment.
