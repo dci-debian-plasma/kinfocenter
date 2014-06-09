@@ -1,4 +1,4 @@
-kinfocenter (4:4.97.0-0ubuntu1) UNRELEASED; urgency=medium
+kinfocenter (4.97.0-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Scarlett Clark ]
   * Initial release.
@@ -6,4 +6,4 @@ kinfocenter (4:4.97.0-0ubuntu1) UNRELEASED; urgency=medium
   [ Jonathan Riddell ]
   * New upstream beta release
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 09 Jun 2014 10:24:46 +0100
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 09 Jun 2014 10:246 +0100
