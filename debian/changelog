@@ -1,6 +1,10 @@
 kinfocenter (4:5.0.0-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Jonathan Riddell ]
   * New upstream release
+
+  [ Scarlett Clark ]
+  * Update watch to http://download.kde.org 
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 10 Jul 2014 20:02:56 +0200
 

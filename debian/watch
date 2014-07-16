@@ -1,2 +1,4 @@
 version=3
-ftp://ftp.kde.org/pub/kde/unstable/plasma/([\d\.]+)/src/kinfocenter-(.*)\.tar\.xz
+http://download.kde.org/unstable/plasma/([\d\.]+)/src/kinfocenter-(.*)\.tar\.xz
+
+http://download.kde.org/stable/plasma/([\d\.]+)/kinfocenter-(.*)\.tar\.xz
