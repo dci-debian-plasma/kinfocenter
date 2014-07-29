@@ -56,8 +56,8 @@ Architecture: any
 Depends: kinfocenter-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
-Breaks: kinfocenter5
-Replaces: kinfocenter5
+Breaks: kinfocenter5 (<< 4:5.0.0-0ubuntu1~ubuntu14.10~ppa3)
+Replaces: kinfocenter5 (<< 4:5.0.0-0ubuntu1~ubuntu14.10~ppa3)
 Description: overview of your system library
  The kinfocenter provides you with a centralized and convenient
  overview of your system and desktop environment.
@@ -68,8 +68,8 @@ Package: kinfocenter-data
 Section: utils
 Architecture: all
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: kinfocenter5-data
-Replaces: kinfocenter5-data
+Breaks: kinfocenter5-data (<< 4:5.0.0-0ubuntu1~ubuntu14.10~ppa3)
+Replaces: kinfocenter5-data (<< 4:5.0.0-0ubuntu1~ubuntu14.10~ppa3)
 Description: overview of your system library
  The kinfocenter provides you with a centralized and convenient
  overview of your system and desktop environment.
@@ -81,8 +81,8 @@ Section: debug
 Architecture: any
 Recommends: qtbase5-dbg
 Depends: kinfocenter (= ${binary:Version}), ${misc:Depends}
-Breaks: kinfocenter5-dbg
-Replaces: kinfocenter5-dbg
+Breaks: kinfocenter5-dbg (<< 4:5.0.0-0ubuntu1~ubuntu14.10~ppa3)
+Replaces: kinfocenter5-dbg (<< 4:5.0.0-0ubuntu1~ubuntu14.10~ppa3)
 Description: overview of your system - debug files
  The kinfocenter provides you with a centralized and convenient
  overview of your system and desktop environment.
