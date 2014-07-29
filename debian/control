@@ -1,5 +1,6 @@
 Source: kinfocenter
 Priority: extra
+Section: kde
 Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 XSBC-Original-Maintainer: Scarlett Clark <scarlett@scarlettgatelyclark.com>
 Build-Depends: cmake,
@@ -47,34 +48,23 @@ Build-Depends: cmake,
                plasma-framework-dev (>= 5.0.0),
                qtbase5-dev
 Standards-Version: 3.9.5
-Section: libs
 Homepage: https://projects.kde.org/projects/playground/libs/libkscreen
 
 Package: kinfocenter
-Section: libs
 Architecture: any
-Depends: kinfocenter-data (= ${source:Version}),
-         ${misc:Depends},
+Depends: ${misc:Depends},
          ${shlibs:Depends}
-Breaks: kinfocenter5 (<< 4:5.0.0-0ubuntu1~ubuntu14.10~ppa3)
-Replaces: kinfocenter5 (<< 4:5.0.0-0ubuntu1~ubuntu14.10~ppa3)
+Breaks: kinfocenter5 (<< 4:5.0.0-0ubuntu1~ubuntu14.10~ppa3),
+ kinfocenter5-data (<< 4:5.0.0-0ubuntu1~ubuntu14.10~ppa3),
+ kde-runtime-data
+Replaces: kinfocenter5 (<< 4:5.0.0-0ubuntu1~ubuntu14.10~ppa3),
+ kinfocenter5-data (<< 4:5.0.0-0ubuntu1~ubuntu14.10~ppa3),
+ kde-runtime-data
 Description: overview of your system library
  The kinfocenter provides you with a centralized and convenient
  overview of your system and desktop environment.
  .
  This package contains the shared library
-
-Package: kinfocenter-data
-Section: utils
-Architecture: all
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: kinfocenter5-data (<< 4:5.0.0-0ubuntu1~ubuntu14.10~ppa3)
-Replaces: kinfocenter5-data (<< 4:5.0.0-0ubuntu1~ubuntu14.10~ppa3)
-Description: overview of your system library
- The kinfocenter provides you with a centralized and convenient
- overview of your system and desktop environment.
- .
- This package contains the data files
 
 Package: kinfocenter-dbg
 Section: debug

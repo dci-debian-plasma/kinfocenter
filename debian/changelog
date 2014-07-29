@@ -9,6 +9,12 @@ kinfocenter (4:5.0.0-0ubuntu1) UNRELEASED; urgency=medium
   [ Harald Sitter ]
   * Rename all binary packages from kinfocenter5 to kinfocenter as that is
     the intended name.
+  * Drop kinfocenter-data and merge it into kinfocenter package as it is
+    rather pointless
+  * Make kinfocenter binary stanza not define a section, set global section
+    to kde
+  * kinfocenter replaces and breaks kde-runtime-data because of
+    kde-information.menu
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 10 Jul 2014 20:02:56 +0200
 
