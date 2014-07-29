@@ -50,33 +50,39 @@ Standards-Version: 3.9.5
 Section: libs
 Homepage: https://projects.kde.org/projects/playground/libs/libkscreen
 
-Package: kinfocenter5
+Package: kinfocenter
 Section: libs
 Architecture: any
 Depends: kinfocenter5-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
+Breaks: kinfocenter5
+Replaces: kinfocenter5
 Description: overview of your system library
  The kinfocenter provides you with a centralized and convenient
  overview of your system and desktop environment.
  .
  This package contains the shared library
 
-Package: kinfocenter5-data
+Package: kinfocenter-data
 Section: utils
 Architecture: all
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: kinfocenter5-data
+Replaces: kinfocenter5-data
 Description: overview of your system library
  The kinfocenter provides you with a centralized and convenient
  overview of your system and desktop environment.
  .
  This package contains the data files
 
-Package: kinfocenter5-dbg
+Package: kinfocenter-dbg
 Section: debug
 Architecture: any
 Recommends: qtbase5-dbg
 Depends: kinfocenter5 (= ${binary:Version}), ${misc:Depends}
+Breaks: kinfocenter5-dbg
+Replaces: kinfocenter5-dbg
 Description: overview of your system - debug files
  The kinfocenter provides you with a centralized and convenient
  overview of your system and desktop environment.
