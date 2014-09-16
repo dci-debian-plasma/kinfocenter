@@ -44,7 +44,7 @@ Build-Depends: cmake,
                libpci-dev,
                libraw1394-dev,
                pkg-config,
-               pkg-kde-tools,
+               pkg-kde-tools (>= 0.15.15ubuntu1~),
                plasma-framework-dev (>= 5.0.0),
                qtbase5-dev
 Standards-Version: 3.9.5
