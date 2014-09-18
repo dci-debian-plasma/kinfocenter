@@ -1,10 +1,20 @@
 kinfocenter (4:5.0.2-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Harald Sitter ]
+  * switch to new pkg-kde-tools
+
+  [ Scarlett Clark ]
+  * New upstream release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 17 Sep 2014 18:14:47 -0700
+
+kinfocenter (4:5.0.1-0ubuntu1~ubuntu14.10~ppa4) utopic; urgency=medium
+
   [ Jonathan Riddell ]
   * New upstream release
 
   [ Scarlett Clark ]
-  * Update watch to http://download.kde.org 
+  * Update watch to http://download.kde.org
 
   [ Harald Sitter ]
   * Rename all binary packages from kinfocenter5 to kinfocenter as that is
@@ -19,13 +29,7 @@ kinfocenter (4:5.0.2-0ubuntu1) UNRELEASED; urgency=medium
   [ Jonathan Riddell ]
   * New upstream bugfix release
 
-  [ Harald Sitter ]
-  * switch to new pkg-kde-tools
-
-  [ Scarlett Clark ]
-  * New upstream release
-
- -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 17 Sep 2014 18:14:47 -0700
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Sun, 10 Aug 2014 15:41:50 +0200
 
 kinfocenter (4:4.98.0-0ubuntu1) utopic; urgency=medium
 
