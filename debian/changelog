@@ -6,6 +6,9 @@ kinfocenter (4:5.0.2-0ubuntu1) UNRELEASED; urgency=medium
   [ Scarlett Clark ]
   * New upstream release
 
+  [ Harald Sitter ]
+  * Add lintian override for missing manpage
+
  -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 17 Sep 2014 18:14:47 -0700
 
 kinfocenter (4:5.0.1-0ubuntu1~ubuntu14.10~ppa4) utopic; urgency=medium
