@@ -1,10 +1,11 @@
-kinfocenter (4:5.1.0-0ubuntu1) UNRELEASED; urgency=medium
+kinfocenter (4:5.1.0.1-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream beta release
   * Add build-dep on kwayland
   * New upstream release
+  * New upstream release with fixed tar
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 09 Oct 2014 15:47:04 +0200
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 14 Oct 2014 13:48:03 +0200
 
 kinfocenter (4:5.0.2-0ubuntu1) utopic; urgency=medium
 
