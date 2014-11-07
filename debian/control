@@ -9,6 +9,7 @@ Build-Depends: cmake,
                kgendesignerplugin (>= 5.2.0),
                kinit-dev (>= 5.2.0),
                kio-dev (>= 5.2.0),
+               kwayland-dev (>= 5.0.95),
                libkf5attica-dev (>= 5.2.0),
                libkf5auth-dev (>= 5.2.0),
                libkf5bookmarks-dev (>= 5.2.0),
@@ -40,7 +41,6 @@ Build-Depends: cmake,
                libkf5widgetsaddons-dev (>= 5.2.0),
                libkf5windowsystem-dev (>= 5.2.0),
                libkf5xmlgui-dev (>= 5.2.0),
-               kwayland-dev (>= 5.0.95),
                libpci-dev,
                libraw1394-dev,
                pkg-config,
@@ -52,12 +52,11 @@ Homepage: https://projects.kde.org/projects/playground/libs/libkscreen
 
 Package: kinfocenter
 Architecture: any
-Depends: ${misc:Depends},
-         ${shlibs:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Breaks: kinfocenter5 (<< 4:5.2.0-0ubuntu1~ubuntu14.10~ppa3),
- kinfocenter5-data (<< 4:5.2.0-0ubuntu1~ubuntu14.10~ppa3),
+        kinfocenter5-data (<< 4:5.2.0-0ubuntu1~ubuntu14.10~ppa3)
 Replaces: kinfocenter5 (<< 4:5.2.0-0ubuntu1~ubuntu14.10~ppa3),
- kinfocenter5-data (<< 4:5.2.0-0ubuntu1~ubuntu14.10~ppa3),
+          kinfocenter5-data (<< 4:5.2.0-0ubuntu1~ubuntu14.10~ppa3)
 Description: overview of your system library
  The kinfocenter provides you with a centralized and convenient
  overview of your system and desktop environment.

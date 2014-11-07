@@ -419,7 +419,7 @@ License: BSD-BY-LC-NE
  THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 Files: Modules/opengl/openglconfig.h.cmake
-Copyright: 2011 Linaro Limited           
+Copyright: 2011 Linaro Limited
 License: LGPL-2+
  | This library is free software; you can redistribute it and/or modify it under
  | the terms of the GNU Library General Public License as published by the Free
