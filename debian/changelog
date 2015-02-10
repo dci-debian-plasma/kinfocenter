@@ -1,3 +1,9 @@
+kinfocenter (4:5.2.0-1~) UNRELEASED; urgency=medium
+
+  * Prepare initial Debian release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 10 Feb 2015 18:02:13 +0100
+
 kinfocenter (4:5.2.0-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
