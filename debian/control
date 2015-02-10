@@ -25,7 +25,7 @@ Build-Depends: cmake,
                libraw1394-dev,
                pkg-config,
                pkg-kde-tools (>= 0.15.15ubuntu1~)
-Standards-Version: 3.9.5
+Standards-Version: 3.9.6
 Homepage: https://projects.kde.org/projects/playground/libs/libkscreen
 
 Package: kinfocenter
