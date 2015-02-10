@@ -3,6 +3,7 @@ kinfocenter (4:5.2.0-1~) UNRELEASED; urgency=medium
   * Prepare initial Debian release.
   * Add myself as Uploader.
   * Bump Standards-Version to 3.9.6, no changes needed.
+  * Update copyright information.
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 10 Feb 2015 18:02:13 +0100
 
