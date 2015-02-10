@@ -1,6 +1,6 @@
 Source: kinfocenter
-Priority: extra
 Section: kde
+Priority: optional
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake,
@@ -43,9 +43,10 @@ Description: overview of your system library
 
 Package: kinfocenter-dbg
 Section: debug
+Priority: extra
 Architecture: any
-Recommends: qtbase5-dbg
 Depends: kinfocenter (= ${binary:Version}), ${misc:Depends}
+Recommends: qtbase5-dbg
 Breaks: kinfocenter5-dbg (<< 4:5.2.0-0ubuntu1~ubuntu14.10~ppa3)
 Replaces: kinfocenter5-dbg (<< 4:5.2.0-0ubuntu1~ubuntu14.10~ppa3)
 Description: overview of your system - debug files
