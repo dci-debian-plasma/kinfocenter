@@ -1,8 +1,9 @@
-kinfocenter (4:5.2.1-1~) UNRELEASED; urgency=medium
+kinfocenter (4:5.2.2-1~) UNRELEASED; urgency=medium
 
   * New upstream release (5.2.1).
+  * New upstream release (5.2.2).
 
- -- Maximiliano Curia <maxy@debian.org>  Sat, 21 Mar 2015 09:53:03 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 25 Mar 2015 09:57:34 +0100
 
 kinfocenter (4:5.2.0-1) experimental; urgency=medium
 
