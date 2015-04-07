@@ -30,9 +30,11 @@ Homepage: https://projects.kde.org/projects/playground/libs/libkscreen
 Package: kinfocenter
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: kinfocenter5 (<< 4:5.2.0-0ubuntu1~ubuntu14.10~ppa3),
+Breaks: about-distro (<< 4:5.3.0),
+        kinfocenter5 (<< 4:5.2.0-0ubuntu1~ubuntu14.10~ppa3),
         kinfocenter5-data (<< 4:5.2.0-0ubuntu1~ubuntu14.10~ppa3)
-Replaces: kinfocenter5 (<< 4:5.2.0-0ubuntu1~ubuntu14.10~ppa3),
+Replaces: about-distro (<< 4:5.3.0),
+          kinfocenter5 (<< 4:5.2.0-0ubuntu1~ubuntu14.10~ppa3),
           kinfocenter5-data (<< 4:5.2.0-0ubuntu1~ubuntu14.10~ppa3)
 Description: overview of your system library
  The kinfocenter provides you with a centralized and convenient
