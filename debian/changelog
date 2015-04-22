@@ -1,6 +1,7 @@
 kinfocenter (4:5.2.95-0ubuntu1) UNRELEASED; urgency=medium
 
   * Plasma 5.3 beta
+  * Add about-data transitional package
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Sat, 18 Apr 2015 14:44:48 +0200
 
