@@ -1,9 +1,10 @@
-kinfocenter (4:5.2.95-0ubuntu1) UNRELEASED; urgency=medium
+kinfocenter (4:5.3.0-0ubuntu1) UNRELEASED; urgency=medium
 
   * Plasma 5.3 beta
   * Add about-data transitional package
+  * new upstream release
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Sat, 18 Apr 2015 14:44:48 +0200
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 23 Apr 2015 16:59:49 +0200
 
 kinfocenter (4:5.2.2-0ubuntu1) vivid; urgency=medium
 
