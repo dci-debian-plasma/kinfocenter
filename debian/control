@@ -28,7 +28,7 @@ Build-Depends: cmake (>= 2.8.12),
                libpci-dev,
                libraw1394-dev,
                pkg-config,
-               pkg-kde-tools (>= 0.15.15ubuntu1~),
+               pkg-kde-tools (>= 0.15.18~),
                qtbase5-dev (>= 5.4.0~)
 Standards-Version: 3.9.6
 Homepage: https://projects.kde.org/projects/kde/workspace/kinfocenter
@@ -40,7 +40,8 @@ Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Breaks: about-distro (<< 4:5.2.95),
         kinfocenter5 (<< 4:5.2.0-0ubuntu1~ubuntu14.10~ppa3),
-        kinfocenter5-data (<< 4:5.2.0-0ubuntu1~ubuntu14.10~ppa3)
+        kinfocenter5-data (<< 4:5.2.0-0ubuntu1~ubuntu14.10~ppa3),
+        ${kde-l10n:all}
 Replaces: about-distro (<< 4:5.2.95),
           kinfocenter5 (<< 4:5.2.0-0ubuntu1~ubuntu14.10~ppa3),
           kinfocenter5-data (<< 4:5.2.0-0ubuntu1~ubuntu14.10~ppa3)
