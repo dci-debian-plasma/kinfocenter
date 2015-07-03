@@ -66,10 +66,10 @@ Description: overview of your system - debug files
  This package contains the debugging symbols.
 
 Package: about-distro
+Section: oldlibs
+Priority: extra
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Priority: extra
-Section: oldlibs
 Description: transitional package for kinfocenter
  This is a transitional package for kinfocenter and can be safely
  removed.
