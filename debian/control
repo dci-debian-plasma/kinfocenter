@@ -44,7 +44,8 @@ Breaks: about-distro (<< 4:5.2.95),
         ${kde-l10n:all}
 Replaces: about-distro (<< 4:5.2.95),
           kinfocenter5 (<< 4:5.2.0-0ubuntu1~ubuntu14.10~ppa3),
-          kinfocenter5-data (<< 4:5.2.0-0ubuntu1~ubuntu14.10~ppa3)
+          kinfocenter5-data (<< 4:5.2.0-0ubuntu1~ubuntu14.10~ppa3),
+          ${kde-l10n:all}
 Description: overview of your system library
  The kinfocenter provides you with a centralized and convenient
  overview of your system and desktop environment.
