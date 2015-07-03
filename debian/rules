@@ -1,7 +1,7 @@
 #!/usr/bin/make -f
 # -*- makefile -*-
 
-l10npkgs_firstversion_ok := 4:15.04.3-1
+l10npkgs_firstversion_ok := 4:4.14.0-2
 
 include /usr/share/pkg-kde-tools/qt-kde-team/3/debian-qt-kde.mk
 include /usr/share/pkg-kde-tools/qt-kde-team/2/l10n-packages.mk
