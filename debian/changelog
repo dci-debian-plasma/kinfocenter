@@ -1,3 +1,9 @@
+kinfocenter (4:5.4.0-0ubuntu1) UNRELEASED; urgency=medium
+
+  * new upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 26 Aug 2015 11:47:29 +0100
+
 kinfocenter (4:5.3.95-0ubuntu1) wily; urgency=medium
 
   [ Scarlett Clark ]
