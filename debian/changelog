@@ -1,6 +1,7 @@
 kinfocenter (4:5.4.0-1~) UNRELEASED; urgency=medium
 
   * New upstream release (5.4.0).
+  * Overkill oui.db update. (Closes: #696459, #791426)
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 02 Sep 2015 23:37:03 +0200
 

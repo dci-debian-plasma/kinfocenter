@@ -8,3 +8,7 @@ include /usr/share/pkg-kde-tools/qt-kde-team/2/l10n-packages.mk
 
 override_dh_strip:
 	$(overridden_command) --dbg-package=kinfocenter-dbg
+
+override_dh_install:
+	rm debian/tmp/usr/share/kcmview1394/oui.db
+	$(overridden_command)
