@@ -37,7 +37,7 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/plasma/kinfocenter.git
 
 Package: kinfocenter
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}, ieee-data
+Depends: ${misc:Depends}, ${shlibs:Depends}, ieee-data, usbutils
 Breaks: about-distro (<< 4:5.2.95),
         kinfocenter5 (<< 4:5.2.0-0ubuntu1~ubuntu14.10~ppa3),
         kinfocenter5-data (<< 4:5.2.0-0ubuntu1~ubuntu14.10~ppa3),
