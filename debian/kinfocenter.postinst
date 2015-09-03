@@ -5,8 +5,9 @@ set -e
 BASEDIR=/var/lib/ieee-data/
 
 if [ "configure" = "$1" ]; then
-    chmod 755 /var/lib/ieee-data/update.d/kinfocenter_oui.sh
-    /var/lib/ieee-data/update.d/kinfocenter_oui.sh "${BASEDIR}" "${BASEDIR}oui.txt"
+    if ! [ -f "${BASEDIR}kinfocenter_oui.db" ]; then
+        /var/lib/ieee-data/update.d/kinfocenter_oui.sh "${BASEDIR}" "${BASEDIR}oui.txt"
+    fi
 fi
 
 #DEBHELPER#

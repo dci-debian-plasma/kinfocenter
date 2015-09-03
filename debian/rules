@@ -13,3 +13,7 @@ override_dh_install:
 	rm debian/tmp/usr/share/kcmview1394/oui.db
 	rm debian/tmp/usr/share/kcmusb/usb.ids
 	$(overridden_command)
+
+override_dh_fixperms:
+	$(overridden_command)
+	chmod 755 debian/kinfocenter/var/lib/ieee-data/update.d/kinfocenter_oui.sh
