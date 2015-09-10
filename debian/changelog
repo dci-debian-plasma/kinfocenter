@@ -5,6 +5,12 @@ kinfocenter (4:5.4.1-1~) UNRELEASED; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 09 Sep 2015 21:49:41 +0200
 
+kinfocenter (4:5.4.1-0ubuntu1) wily; urgency=medium
+
+  * new upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 08 Sep 2015 10:16:18 +0100
+
 kinfocenter (4:5.4.0-1) unstable; urgency=medium
 
   * New upstream release (5.4.0).
@@ -12,6 +18,22 @@ kinfocenter (4:5.4.0-1) unstable; urgency=medium
   * Use usb.ids from usbutils. (Closes: #696459) Thanks to Bob Bib
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 04 Sep 2015 01:18:57 +0200
+
+kinfocenter (4:5.4.0-0ubuntu1) wily; urgency=medium
+
+  * new upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 31 Aug 2015 15:50:03 +0100
+
+kinfocenter (4:5.3.95-0ubuntu1) wily; urgency=medium
+
+  [ Scarlett Clark ]
+  * Vivid backport
+
+  [ Jonathan Riddell ]
+  * new upstream beta release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 10 Aug 2015 23:13:56 +0200
 
 kinfocenter (4:5.3.2-2) unstable; urgency=medium
 
@@ -27,6 +49,12 @@ kinfocenter (4:5.3.2-1) unstable; urgency=medium
   * Update copyright information.
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 01 Jul 2015 11:04:12 +0200
+
+kinfocenter (4:5.3.2-0ubuntu1) wily; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 02 Jul 2015 12:27:52 +0000
 
 kinfocenter (4:5.3.1-0ubuntu1) wily; urgency=medium
 
