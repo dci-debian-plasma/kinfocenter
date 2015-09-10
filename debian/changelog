@@ -1,6 +1,7 @@
 kinfocenter (4:5.4.1-1~) UNRELEASED; urgency=medium
 
   * New upstream release (5.4.1).
+  * Check it the file is there before deleting it. (Closes: #798453)
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 09 Sep 2015 21:49:41 +0200
 
