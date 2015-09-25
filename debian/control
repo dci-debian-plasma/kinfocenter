@@ -37,7 +37,7 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/plasma/kinfocenter.git
 
 Package: kinfocenter
 Architecture: any
-Depends: plasma-workspace, ${misc:Depends}, ${shlibs:Depends}
+Depends: baloo-kf5, plasma-workspace, ${misc:Depends}, ${shlibs:Depends}
 Breaks: about-distro (<< 4:5.2.95),
         kinfocenter5 (<< 4:5.2.0-0ubuntu1~ubuntu14.10~ppa3),
         kinfocenter5-data (<< 4:5.2.0-0ubuntu1~ubuntu14.10~ppa3)
