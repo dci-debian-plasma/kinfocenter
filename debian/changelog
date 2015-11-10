@@ -1,3 +1,9 @@
+kinfocenter (4:5.4.3-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream bugfix release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 09 Nov 2015 16:04:04 -0800
+
 kinfocenter (4:5.4.2-0ubuntu1) wily; urgency=medium
 
   * New upstream release
