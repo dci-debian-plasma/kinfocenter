@@ -1,8 +1,12 @@
 kinfocenter (4:5.4.3-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Scarlett Clark ]
   * New upstream bugfix release
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 09 Nov 2015 16:04:04 -0800
+  [ Philip Muškovac ]
+  * New upstream bugfix release (LP: #1518598)
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Sun, 22 Nov 2015 14:11:24 +0100
 
 kinfocenter (4:5.4.2-0ubuntu1) UNRELEASED; urgency=medium
 
