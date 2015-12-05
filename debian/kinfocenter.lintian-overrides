@@ -1,4 +1,1 @@
 kinfocenter: binary-without-manpage usr/bin/kinfocenter
-# The format is different than the one provided in ieee-data.
-kinfocenter: package-install-ieee-data usr/share/kcmview1394/oui.db
-kinfocenter: package-installs-ieee-data usr/share/kcmview1394/oui.db

@@ -9,7 +9,12 @@ Build-Depends: cmake (>= 2.8.12),
                kdoctools-dev (>= 5.9.0~),
                kinit-dev,
                kio-dev (>= 5.9.0~),
+<<<<<<< HEAD
                kwayland-dev (>= 4:5.4.3~),
+=======
+               kwayland-dev (>= 4:5.4.1~),
+               libegl1-mesa-dev,
+>>>>>>> master
                libkf5completion-dev (>= 5.9.0~),
                libkf5config-dev (>= 5.9.0~),
                libkf5configwidgets-dev (>= 5.9.0~),
@@ -28,7 +33,7 @@ Build-Depends: cmake (>= 2.8.12),
                libpci-dev,
                libraw1394-dev,
                pkg-config,
-               pkg-kde-tools (>= 0.15.15ubuntu1~),
+               pkg-kde-tools (>= 0.15.18~),
                qtbase5-dev (>= 5.4.0~)
 Standards-Version: 3.9.6
 Homepage: https://projects.kde.org/projects/kde/workspace/kinfocenter
@@ -37,13 +42,23 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/plasma/kinfocenter.git
 
 Package: kinfocenter
 Architecture: any
+<<<<<<< HEAD
 Depends: baloo-kf5, plasma-workspace, ${misc:Depends}, ${shlibs:Depends}
+=======
+Depends: ieee-data,
+         plasma-workspace,
+         usbutils,
+         ${misc:Depends},
+         ${shlibs:Depends}
+>>>>>>> master
 Breaks: about-distro (<< 4:5.2.95),
         kinfocenter5 (<< 4:5.2.0-0ubuntu1~ubuntu14.10~ppa3),
-        kinfocenter5-data (<< 4:5.2.0-0ubuntu1~ubuntu14.10~ppa3)
+        kinfocenter5-data (<< 4:5.2.0-0ubuntu1~ubuntu14.10~ppa3),
+        ${kde-l10n:all}
 Replaces: about-distro (<< 4:5.2.95),
           kinfocenter5 (<< 4:5.2.0-0ubuntu1~ubuntu14.10~ppa3),
-          kinfocenter5-data (<< 4:5.2.0-0ubuntu1~ubuntu14.10~ppa3)
+          kinfocenter5-data (<< 4:5.2.0-0ubuntu1~ubuntu14.10~ppa3),
+          ${kde-l10n:all}
 Description: overview of your system library
  The kinfocenter provides you with a centralized and convenient
  overview of your system and desktop environment.
@@ -65,10 +80,10 @@ Description: overview of your system - debug files
  This package contains the debugging symbols.
 
 Package: about-distro
+Section: oldlibs
+Priority: extra
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Priority: extra
-Section: oldlibs
 Description: transitional package for kinfocenter
  This is a transitional package for kinfocenter and can be safely
  removed.

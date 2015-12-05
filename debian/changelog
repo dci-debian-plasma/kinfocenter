@@ -1,3 +1,9 @@
+kinfocenter (4:5.4.3-0ubuntu2) UNRELEASED; urgency=medium
+
+  * Debian merge: No remaining changes. 
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 04 Dec 2015 21:04:40 -0800
+
 kinfocenter (4:5.4.3-0ubuntu1) xenial; urgency=medium
 
   [ Scarlett Clark ]
@@ -7,6 +13,18 @@ kinfocenter (4:5.4.3-0ubuntu1) xenial; urgency=medium
   * New upstream bugfix release (LP: #1518598)
 
  -- Philip Muškovac <yofel@kubuntu.org>  Sun, 22 Nov 2015 16:31:06 +0100
+
+kinfocenter (4:5.4.3-1) unstable; urgency=medium
+
+  * New upstream release (5.4.3).
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 01 Dec 2015 11:45:52 +0100
+
+kinfocenter (4:5.4.2-1) unstable; urgency=medium
+
+  * New upstream release (5.4.2).
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 06 Oct 2015 07:52:10 +0200
 
 kinfocenter (4:5.4.2-0ubuntu1) UNRELEASED; urgency=medium
 
@@ -20,11 +38,26 @@ kinfocenter (4:5.4.2-0ubuntu1) wily; urgency=medium
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 02 Oct 2015 15:53:54 +0100
 
+kinfocenter (4:5.4.1-1) unstable; urgency=medium
+
+  * New upstream release (5.4.1).
+  * Check it the file is there before deleting it. (Closes: #798453)
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 11 Sep 2015 18:45:18 +0200
+
 kinfocenter (4:5.4.1-0ubuntu1) wily; urgency=medium
 
   * new upstream release
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 08 Sep 2015 10:16:18 +0100
+
+kinfocenter (4:5.4.0-1) unstable; urgency=medium
+
+  * New upstream release (5.4.0).
+  * Overkill oui.db update. (Closes: #791426) Thanks to Bastien ROUCARIES
+  * Use usb.ids from usbutils. (Closes: #696459) Thanks to Bob Bib
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 04 Sep 2015 01:18:57 +0200
 
 kinfocenter (4:5.4.0-0ubuntu1) wily; urgency=medium
 
@@ -41,6 +74,21 @@ kinfocenter (4:5.3.95-0ubuntu1) wily; urgency=medium
   * new upstream beta release
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 10 Aug 2015 23:13:56 +0200
+
+kinfocenter (4:5.3.2-2) unstable; urgency=medium
+
+  * Add the missing Breaks/Replaces. (Closes: #790806)
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 03 Jul 2015 14:07:48 +0200
+
+kinfocenter (4:5.3.2-1) unstable; urgency=medium
+
+  * New upstream release (5.3.0).
+  * New upstream release (5.3.1).
+  * New upstream release (5.3.2).
+  * Update copyright information.
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 01 Jul 2015 11:04:12 +0200
 
 kinfocenter (4:5.3.2-0ubuntu1) wily; urgency=medium
 
@@ -62,13 +110,6 @@ kinfocenter (4:5.3.1-0ubuntu1) wily; urgency=medium
   * New upstream release
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 05 Jun 2015 02:29:50 +0200
-
-kinfocenter (4:5.3.1-1~) UNRELEASED; urgency=medium
-
-  * New upstream release (5.3.0).
-  * New upstream release (5.3.1).
-
- -- Maximiliano Curia <maxy@debian.org>  Fri, 05 Jun 2015 11:55:37 +0200
 
 kinfocenter (4:5.2.2-1) experimental; urgency=medium
 
@@ -120,16 +161,10 @@ kinfocenter (4:5.1.1-0ubuntu1) vivid; urgency=medium
 
   * New upstream release.
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 10 Nov 2014 19:44:22 +0100
-
-kinfocenter (4:5.1.0.1-0ubuntu1) UNRELEASED; urgency=medium
-
-  * New upstream beta release
+  [ Jonathan Riddell ]
   * Add build-dep on kwayland
-  * New upstream release
-  * New upstream release with fixed tar
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 14 Oct 2014 13:48:03 +0200
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 10 Nov 2014 19:44:22 +0100
 
 kinfocenter (4:5.0.2-0ubuntu1) utopic; urgency=medium
 
@@ -175,11 +210,11 @@ kinfocenter (4:4.98.0-0ubuntu1) utopic; urgency=medium
 
 kinfocenter (4:4.97.0a-0ubuntu1) utopic; urgency=medium
 
-  * New tar 
+  * New tar
   * wrap-and-sort
   * fix install files
-  * change data package arch all 
-  * Fix copyright 
+  * change data package arch all
+  * Fix copyright
 
  -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Mon, 09 Jun 2014 12:01:38 -0700
 
