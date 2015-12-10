@@ -1,3 +1,9 @@
+kinfocenter (4:5.5.0-1~) UNRELEASED; urgency=medium
+
+  * New upstream release (5.5.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 10 Dec 2015 14:05:56 +0100
+
 kinfocenter (4:5.4.3-1) unstable; urgency=medium
 
   * New upstream release (5.4.3).
