@@ -1,9 +1,13 @@
-kinfocenter (4:5.5.1-0ubuntu1) UNRELEASED; urgency=medium
+kinfocenter (4:5.5.2-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Scarlett Clark ]
   * Debian merge: No remaining changes. 
   * New upstream release Xenial
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 18 Dec 2015 07:28:43 -0800
+  [ Clive Johnston ]
+  * new upstream release
+
+ -- Clive Johnston <clivejo@aol.com>  Tue, 29 Dec 2015 17:41:33 +0000
 
 kinfocenter (4:5.4.3-0ubuntu1) xenial; urgency=medium
 
