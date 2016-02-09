@@ -4,7 +4,8 @@ dirname="$1"
 filename="$2"
 
 if [ "oui.txt" != $(basename "$filename") ]; then
-    exit 1
+    # Not for us
+    exit 0
 fi
 
 awk '
