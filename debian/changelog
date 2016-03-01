@@ -1,8 +1,9 @@
-kinfocenter (4:5.5.4-2~) UNRELEASED; urgency=medium
+kinfocenter (4:5.5.5-1~) UNRELEASED; urgency=medium
 
   * Update oui script. (Closes: #813355) Thanks to Myhailo Danylenko.
+  * New upstream release (5.5.5).
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 09 Feb 2016 15:19:18 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 01 Mar 2016 17:28:43 +0100
 
 kinfocenter (4:5.5.4-1) experimental; urgency=medium
 
