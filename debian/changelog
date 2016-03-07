@@ -1,4 +1,4 @@
-kinfocenter (4:5.5.4-0ubuntu1) UNRELEASED; urgency=medium
+kinfocenter (4:5.5.4-0ubuntu1) xenial; urgency=medium
 
   [ Scarlett Clark ]
   * Debian merge: No remaining changes. 
@@ -9,7 +9,7 @@ kinfocenter (4:5.5.4-0ubuntu1) UNRELEASED; urgency=medium
   * New upstream release
   * New upstream release
 
- -- Clive Johnston <clivejo@aol.com>  Wed, 27 Jan 2016 20:10:27 +0000
+ -- Clive Johnston <clivejo@aol.com>  Mon, 07 Mar 2016 21:21:53 +0100
 
 kinfocenter (4:5.4.3-0ubuntu1) xenial; urgency=medium
 
