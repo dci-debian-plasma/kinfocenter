@@ -1,10 +1,14 @@
-kinfocenter (4:5.6.2-1~1.gbpd9ec4a) UNRELEASED; urgency=medium
+kinfocenter (4:5.6.2-1~2.gbp0de9c4) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @d9ec4a2a7761e36a089a145112a779c9b0dc4f54 **
+  ** SNAPSHOT build @0de9c4fdb7eef6f640bfe76ce9667fbdc2e21d71 **
 
   * Update oui script. (Closes: #813355) Thanks to Myhailo Danylenko.
+  * uscan no longer supports this kind of watch files.
+  * New upstream release (5.5.5).
+  * Automatic update with ddeb_migration3.py
+  * Add upstream metadata (DEP-12)
 
- -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Wed, 06 Apr 2016 23:20:15 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sat, 09 Apr 2016 14:42:56 +0200
 
 kinfocenter (4:5.5.4-1) experimental; urgency=medium
 
