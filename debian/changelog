@@ -1,8 +1,8 @@
-kinfocenter (4:5.5.5-0ubuntu1) UNRELEASED; urgency=medium
+kinfocenter (4:5.5.5-0ubuntu1) xenial; urgency=medium
 
   * New upstream bugfix release
 
- -- Philip Muškovac <yofel@kubuntu.org>  Tue, 08 Mar 2016 22:28:28 +0100
+ -- Philip Muškovac <yofel@kubuntu.org>  Thu, 14 Apr 2016 13:39:49 -0700
 
 kinfocenter (4:5.5.4-0ubuntu1) xenial; urgency=medium
 
