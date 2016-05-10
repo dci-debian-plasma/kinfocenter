@@ -1,6 +1,6 @@
-kinfocenter (4:5.6.3-1~1.gbpd635cb) UNRELEASED; urgency=medium
+kinfocenter (4:5.6.4-1~1.gbp27fc46) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @d635cb8ef547dc7e2bff714cfda5033fc8eafccf **
+  ** SNAPSHOT build @27fc465b3560bb2d62b349d2d42e074b87b24663 **
 
   [ Maximiliano Curia ]
   ** SNAPSHOT build @0de9c4fdb7eef6f640bfe76ce9667fbdc2e21d71 **
@@ -11,11 +11,12 @@ kinfocenter (4:5.6.3-1~1.gbpd635cb) UNRELEASED; urgency=medium
   * Automatic update with ddeb_migration3.py
   * Add upstream metadata (DEP-12)
   * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * UNRELEASED
 
   [ Automatic packaging ]
   * Bump Standards-Version to 3.9.8
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Tue, 19 Apr 2016 17:20:31 +0200
+ -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Wed, 11 May 2016 00:20:37 +0200
 
 kinfocenter (4:5.5.4-1) experimental; urgency=medium
 
