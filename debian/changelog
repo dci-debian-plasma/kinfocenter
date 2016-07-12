@@ -1,3 +1,9 @@
+kinfocenter (4:5.7.1-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Tue, 12 Jul 2016 16:06:15 +0000
+
 kinfocenter (4:5.7.0-0neon) xenial; urgency=medium
 
   * New release
