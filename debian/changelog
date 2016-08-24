@@ -1,12 +1,13 @@
-kinfocenter (4:5.7.3-1~1.gbp777dea) UNRELEASED; urgency=medium
+kinfocenter (4:5.7.4-1~1.gbpd8873e) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @777deace0438d44e412a696d3a4a7244fc136071 **
+  ** SNAPSHOT build @d8873eefffdd64d756e912747897a2b59f39e5ab **
 
   * UNRELEASED
   * UNRELEASED
   * UNRELEASED
+  * UNRELEASED
 
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Fri, 05 Aug 2016 18:20:20 +0200
+ -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Wed, 24 Aug 2016 18:20:21 +0200
 
 kinfocenter (4:5.7.0-1) unstable; urgency=medium
 
