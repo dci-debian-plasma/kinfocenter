@@ -14,6 +14,8 @@ kinfocenter (4:5.7.4-2) UNRELEASED; urgency=medium
     exist in any stable Debian release.
   * Restrict the kwayland-dev, and libraw1394-dev build dependencies as
     linux-any, so it can be built on non-Linux architectures as well.
+  * Limit the replacement of the oui.db file of the kcmview1394 module to
+    Linux, since that module is built on Linux only.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 05 Sep 2016 07:44:59 +0200
 
