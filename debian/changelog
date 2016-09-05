@@ -7,6 +7,7 @@ kinfocenter (4:5.7.4-2) UNRELEASED; urgency=medium
       directory
     - simplify kinfocenter.install
     - remove breaks/replaces in kinfocenter for it
+  * Slightly improve the description of kinfocenter.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 05 Sep 2016 07:44:59 +0200
 
