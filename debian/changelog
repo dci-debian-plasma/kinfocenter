@@ -10,6 +10,8 @@ kinfocenter (4:5.7.4-2) UNRELEASED; urgency=medium
   * Slightly improve the description of kinfocenter.
   * Remove kinfocenter5 & kinfocenter5-data breaks/replaces, as they are needed
     only on old Ubuntu versions.
+  * Remove dbgsym migration from kinfocenter-dbg, since the latter does not
+    exist in any stable Debian release.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 05 Sep 2016 07:44:59 +0200
 
