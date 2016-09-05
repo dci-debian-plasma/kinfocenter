@@ -1,5 +1,12 @@
 kinfocenter (4:5.7.4-2) UNRELEASED; urgency=medium
 
+  [ Pino Toscano ]
+  * Remove the transitional about-distro package, since it was never part of
+    a stable Debian release:
+    - adjust the paths in rules to point to the kinfocenter installation
+      directory
+    - simplify kinfocenter.install
+    - remove breaks/replaces in kinfocenter for it
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 05 Sep 2016 07:44:59 +0200
 

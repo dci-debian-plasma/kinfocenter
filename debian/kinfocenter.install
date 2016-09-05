@@ -1,3 +1,1 @@
 debian/kinfocenter_oui.sh /var/lib/ieee-data/update.d
-etc/xdg/menus/kinfocenter.menu
-usr/*
