@@ -1,6 +1,6 @@
-kinfocenter (4:5.7.4-3~1.gbp0e786c) UNRELEASED; urgency=medium
+kinfocenter (4:5.7.4-3~2.gbp450fb9) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @0e786c5378298c2ae7d8d4534b6757db8107184b **
+  ** SNAPSHOT build @450fb9b923b559529bd63b8ce798a3754f82d887 **
 
   [ Pino Toscano ]
   * Remove the transitional about-distro package, since it was never part of
@@ -18,11 +18,13 @@ kinfocenter (4:5.7.4-3~1.gbp0e786c) UNRELEASED; urgency=medium
     linux-any, so it can be built on non-Linux architectures as well.
   * Limit the replacement of the oui.db file of the kcmview1394 module to
     Linux, since that module is built on Linux only.
+  * restrict kwayland-dev and libraw1394-dev B-Ds as linux-any
+  * limit oui.db handling to linux
 
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Mon, 05 Sep 2016 08:20:15 +0200
+ -- Pino Toscano <pino@debian.org>  Mon, 05 Sep 2016 19:20:16 +0200
 
 kinfocenter (4:5.7.4-1) unstable; urgency=medium
 
