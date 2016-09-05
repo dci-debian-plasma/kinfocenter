@@ -43,12 +43,8 @@ Depends: ieee-data,
          usbutils,
          ${misc:Depends},
          ${shlibs:Depends}
-Breaks: kinfocenter5 (<< 4:5.2.0-0ubuntu1~ubuntu14.10~ppa3),
-        kinfocenter5-data (<< 4:5.2.0-0ubuntu1~ubuntu14.10~ppa3),
-        ${kde-l10n:all}
-Replaces: kinfocenter5 (<< 4:5.2.0-0ubuntu1~ubuntu14.10~ppa3),
-          kinfocenter5-data (<< 4:5.2.0-0ubuntu1~ubuntu14.10~ppa3),
-          ${kde-l10n:all}
+Breaks: ${kde-l10n:all}
+Replaces: ${kde-l10n:all}
 Description: system information viewer
  The kinfocenter provides you with a centralized and convenient
  overview of your system and desktop environment.
