@@ -1,3 +1,19 @@
+kinfocenter (4:5.7.4-3~1.gbpb9ebe1) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @b9ebe159572f91e52004f8b875da1c9b8c7ce73c **
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+  * Update changelog for 4:5.7.4-3~1.gbp0e786c release
+  * Update changelog for 4:5.7.4-3~2.gbp450fb9 release
+
+  [ Pino Toscano ]
+  * restrict kwayland-dev and libraw1394-dev B-Ds as linux-any
+  * limit oui.db handling to linux
+  * release to unstable, as team upload
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 07 Sep 2016 18:24:11 +0200
+
 kinfocenter (4:5.7.4-2) unstable; urgency=medium
 
   * Team upload.
