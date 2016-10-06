@@ -1,11 +1,12 @@
-kinfocenter (4:5.8.0-1~2.gbp450f59) UNRELEASED; urgency=medium
+kinfocenter (4:5.8.0-1~3.gbp934cd5) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @450f596241cdcf638396da4f7e497f5753af020c **
+  ** SNAPSHOT build @934cd52f987a2d536e70cbd10ab6b8487abeabf4 **
 
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
   * Update changelog for 4:5.7.4-3~1.gbp0e786c release
   * Update changelog for 4:5.7.4-3~2.gbp450fb9 release
+  * UNRELEASED
   * UNRELEASED
   * UNRELEASED
   * UNRELEASED
@@ -15,7 +16,7 @@ kinfocenter (4:5.8.0-1~2.gbp450f59) UNRELEASED; urgency=medium
   * limit oui.db handling to linux
   * release to unstable, as team upload
 
- -- Automatic packaging <jenkins@gnuservers.com.ar>  Wed, 05 Oct 2016 18:20:29 +0200
+ -- Automatic packaging <jenkins@gnuservers.com.ar>  Thu, 06 Oct 2016 10:20:33 +0200
 
 kinfocenter (4:5.7.4-2) unstable; urgency=medium
 
