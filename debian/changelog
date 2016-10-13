@@ -1,3 +1,11 @@
+kinfocenter (4:5.8.1-1~1.gbpb59a34) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @b59a347582e65b60b44f7fdfc9364f558469234e **
+
+  * UNRELEASED
+
+ -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Thu, 13 Oct 2016 18:21:07 +0200
+
 kinfocenter (4:5.8.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
