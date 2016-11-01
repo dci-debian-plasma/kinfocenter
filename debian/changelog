@@ -1,3 +1,11 @@
+kinfocenter (4:5.8.3-1~1.gbp0ca2f9) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @0ca2f9b3fa48003d064ccbd9c0bc6cc0fcbfc1f0 **
+
+  * UNRELEASED
+
+ -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Tue, 01 Nov 2016 17:20:32 +0100
+
 kinfocenter (4:5.8.2-1) unstable; urgency=medium
 
   * New upstream release (5.8.2)
