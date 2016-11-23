@@ -1,11 +1,8 @@
-kinfocenter (4:5.8.4-1~1.gbp724d86) UNRELEASED; urgency=medium
+kinfocenter (4:5.8.4-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @724d8653a8f4894a00534cac2833b9bec8f7469e **
+  * New upstream release (5.8.4)
 
-  * UNRELEASED
-  * UNRELEASED
-
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Tue, 22 Nov 2016 18:21:21 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 23 Nov 2016 18:35:41 +0100
 
 kinfocenter (4:5.8.2-1) unstable; urgency=medium
 
