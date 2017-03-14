@@ -1,3 +1,9 @@
+kinfocenter (4:5.8.6-0neon) UNRELEASED; urgency=medium
+
+  * New release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 14 Mar 2017 18:46:33 +0000
+
 kinfocenter (4:5.8.6-0neon) xenial; urgency=medium
 
   * New Plasma LTS release
