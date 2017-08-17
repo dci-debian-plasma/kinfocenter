@@ -1,8 +1,16 @@
-kinfocenter (4:5.10.3-1~) UNRELEASED; urgency=medium
+kinfocenter (4:5.10.4-1~) UNRELEASED; urgency=medium
 
+  [ Maximiliano Curia ]
   * New upstream release (5.10.3).
+  * Update build-deps and deps with the info from cmake
+  * Bump Standards-Version to 4.0.0.
+  * Update upstream metadata
+  * New upstream release (5.10.4).
 
- -- Maximiliano Curia <maxy@debian.org>  Sat, 08 Jul 2017 11:47:50 +0200
+  [ Jonathan Riddell ]
+  * update watch file to version=4 with pgp signature checking
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 17 Aug 2017 13:26:37 +0200
 
 kinfocenter (4:5.8.5-1) experimental; urgency=medium
 
