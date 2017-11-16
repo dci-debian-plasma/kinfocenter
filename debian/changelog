@@ -1,3 +1,21 @@
+kinfocenter (4:5.11.2-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Tue, 24 Oct 2017 16:31:56 +0000
+
+kinfocenter (4:5.11.1-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Tue, 17 Oct 2017 13:45:38 +0000
+
+kinfocenter (4:5.11.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Thu, 05 Oct 2017 14:32:51 +0000
+
 kinfocenter (4:5.10.5-0neon) xenial; urgency=medium
 
   * New release
@@ -74,8 +92,9 @@ kinfocenter (4:5.8.6-0neon) UNRELEASED; urgency=medium
 
   * New release
   * New Plasma LTS release
+  * New LTS release
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 23 May 2017 14:47:33 +0100
+ -- Jonathan Riddell <jr@jriddell.org>  Wed, 25 Oct 2017 14:56:43 +0100
 
 kinfocenter (4:5.8.6-0neon) xenial; urgency=medium
 
