@@ -60,7 +60,7 @@ Description: overview of your system library
 
 Package: kinfocenter-dbg
 Section: debug
-Priority: extra
+Priority: optional
 Architecture: any
 Depends: kinfocenter (= ${binary:Version}), ${misc:Depends}
 Recommends: qtbase5-dbg
@@ -80,3 +80,4 @@ Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: transitional package for kinfocenter
  This is a transitional package for kinfocenter and can be safely
  removed.
+
